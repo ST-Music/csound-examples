@@ -1,3 +1,3 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
-A generative, algorithmic and/or aleatoric piece, however you choose to label it.
+A soft generative, algorithmic and/or aleatoric piece, however you choose to label it. Utilizes the Csound mandel opcode, based on the Mandelbrot set, to select notes from a function table. Various other random number generators are used to create the overall effect.
