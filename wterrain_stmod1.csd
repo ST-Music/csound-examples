@@ -52,7 +52,7 @@ aL,aR   reverbsc gaRvbL, gaRvbR, .92, 10000
 ; p4=pitch, p5=amp, p6=X center, p7=X radius min,   
 ; p8=X radius max, p9=Y center, p10=Y radius min, 
 ; p11=Y radius max, p12=table 1, p13=table 2, 
-; p14=curve start param., p15=curve end param.
+; p14=curve param. starting value, p15=curve param. end
                                                          
 ;        p4  p5  p6  p7  p8  p9  p10 p11 p12 p13 p14 p15  
 i1 0 10 6.00 .7  .5  .5  .5  .2  .5  .5   1   1    0   0
