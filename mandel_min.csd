@@ -11,7 +11,6 @@ http://creativecommons.org/licenses/by/4.0/
 ; mobile devices
 <CsOptions>
 -odac
-; -o/sdcard/mandel.wav ; for Android devices
 </CsOptions>
 <CsInstruments>
 
