@@ -31,7 +31,7 @@ fAnal = pvsanal(aFile, 1024, 256, 1024, 0)
         pvsfwrite fAnal, "/storage/emulated/0/mypvs.pvx"
 aSynth  pvsynth fAnal
         out aSynth
-endin
+    endin
 
     instr 2 ; must be called after instr 1 finishes
 kTime   timeinsts
