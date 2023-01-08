@@ -79,8 +79,8 @@ fout "/sdcard/sndwarpst9.wav",16,allL,allR
 i"Trigger" 0   47 ; triggers instr 2
 i .       57   60
 i .      124   50
-i"Reverb"  0  200 ; reverb instrument
-;i"Record"  0  201 ; record instrument
+i"Reverb"  0  190 ; reverb instrument
+;i"Record"  0  191 ; record instrument
 </CsScore>
 </CsoundSynthesizer>
 ; original example written by Iain McCurdy
