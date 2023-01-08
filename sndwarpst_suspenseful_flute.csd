@@ -47,7 +47,7 @@ ibeg      = 0
 iwsize    = random(400,10000)
 irandw    = iwsize/3
 ioverlap  = 14
-itimemode = .3
+itimemode = 1
 
 ; create a stereo granular synthesis texture using sndwarp
 aSigL,aSigR sndwarpst   kamp*.6,ktimewarp,iresample,ifn1,ibeg,\
