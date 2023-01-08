@@ -50,7 +50,7 @@ ioverlap  = 14
 itimemode = .3
 
 ; create a stereo granular synthesis texture using sndwarp
-aSigL,aSigR sndwarpst   kamp*.3,ktimewarp,iresample,ifn1,ibeg,\
+aSigL,aSigR sndwarpst   kamp*.6,ktimewarp,iresample,ifn1,ibeg,\
                         iwsize,irandw,ioverlap,ifn2,itimemode
 ; send to reverb
 gaSendL  += aSigL * 0.48
