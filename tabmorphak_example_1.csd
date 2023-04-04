@@ -122,7 +122,7 @@ outs    asig, asig
 
 </CsInstruments>
 <CsScore>
-i1  0  10 ; Roor, 3rd, 5th, flat7th
+i1  0  10 ; Root, 3rd, 5th, flat7th
 i2 10  20 ; morph Root, 5th
 i3 30  20 ; morph 3rd, flat7th
 i4 50  20 ; morph Root, 3rd
