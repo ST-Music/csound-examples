@@ -6,4 +6,6 @@ The "tabmorphak_example_1.csd" file demonstrates this.
 
 You can also move thru the wavetable in two directions simultaneously, for example having ktabnum1 moving forwards from waveform 0 to 40 while ktabnum2 moves backwards from 40 to 0.
 
+"tabmorphak_example_2.csd"
+
 [More to come soon...]
