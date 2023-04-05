@@ -8,4 +8,6 @@ You can also move thru the wavetable in two directions simultaneously, for examp
 
 "tabmorphak_example_2.csd"
 
+While ktabnum1 is moving linearly from 0 to 7 it morphs between adjacent samples, as does ktabnum2, in reverse. However since they are moving in different directions the result is that unless they are crossing exact integer values they are combining 4 waveforms simultaneously.
+
 [More to come soon...]
