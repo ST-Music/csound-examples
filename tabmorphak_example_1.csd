@@ -131,4 +131,4 @@ i6 90  20 ; morph all 4 notes
 e
 </CsScore>
 </CsoundSynthesizer>
-example written by Scott Daughtrey
+; example written by Scott Daughtrey
