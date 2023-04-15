@@ -22,13 +22,13 @@ instr 1
     aSig  = buzz(kEnv, 50, 100, giSine)
     ffs2  = pvsanal(aSig, 1024, 256, 1024, 0)
 
-	iDepth = 1
+    iDepth = 1
     iGain = 35
-	iBands  init 60
-	fOut  = pvsvoc(ffs1, ffs2, iDepth, iGain, iBands)
+    iBands = 60
+    fOut  = pvsvoc(ffs1, ffs2, iDepth, iGain, iBands)
 
-    aOut	pvsynth	 fOut
-	    	out      aOut
+    aOut    pvsynth fOut
+    out     aOut
 endin
 
 </CsInstruments>
