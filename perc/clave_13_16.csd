@@ -21,7 +21,7 @@ instr Trig
     kDur  = table(gkCount, iDur, 0, 0, 1)
     kTrig   metro 4/giBeat/kDur
     
-        if(kTrig == 1) then
+        if (kTrig == 1) then
             gkCount += 1
         endif
     
@@ -32,7 +32,7 @@ instr Trig
     kAcc  = table(gkAccnt, iAcc, 0, 0, 1)
     kTrig2  metro 4/giBeat
     
-        if(kTrig2 == 1) then
+        if (kTrig2 == 1) then
             gkAccnt += 1
         endif
 
