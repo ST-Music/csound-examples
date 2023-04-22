@@ -11,10 +11,10 @@ nchnls = 2
 0dbfs  = 1
 
         seed  0
-gkCount init -1
-gkAccnt init  0
-giBPM   init 90
-giBeat  init 60/giBPM
+gkCount     init -1
+gkAccent    init  0
+giBPM       init 90
+giBeat      init 60/giBPM
 
 instr Trig
     iDur    ftgen 0, 0, 4, -2, 4, 4, 4, 1
@@ -27,13 +27,13 @@ instr Trig
     
     schedkwhen kTrig, 0, 0, "Clave", 0, .1
 
-    iAcc    ftgen 0, 0, -13, -2, 1, .5, .7, .5,\
+    iAccent ftgen 0, 0, -13, -2, 1, .5, .7, .5,\
             1, .5, .7, .5, 1, .5, .7, .5, .8
-    kAcc  = table(gkAccnt, iAcc, 0, 0, 1)
+    kAcc  = table(gkAccent, iAccent, 0, 0, 1)
     kTrig2  metro 4/giBeat
     
         if (kTrig2 == 1) then
-            gkAccnt += 1
+            gkAccent += 1
         endif
 
     schedkwhen kTrig2, 0, 0, "Shaker", 0, .2, kAcc
@@ -64,3 +64,4 @@ i"Trig"  0   32
 </CsoundSynthesizer>
 ; example by Scott Daughtrey
 ; https://soundcloud.com/st-csound
+; https://youtube.com/@stmusic2164
