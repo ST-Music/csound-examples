@@ -25,7 +25,6 @@ instr Trig
             gkCount += 1
         endif
     
-
     schedkwhen kTrig, 0, 0, "Clave", 0, .1
 
     iAcc    ftgen 0, 0, -13, -2, 1, .5, .7, .5,\
