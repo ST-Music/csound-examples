@@ -10,7 +10,7 @@ ksmps = 32
 nchnls = 2
 0dbfs  = 1
 
-        seed  0
+            seed  0
 gkCount     init -1
 gkAccent    init  0
 giBPM       init 90
