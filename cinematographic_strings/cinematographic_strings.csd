@@ -67,8 +67,8 @@ aRmp2 = vco2(.3, p4 * 2, 20, .99, p6, iNyx)
 aMix1 = dcblock2(aRamp * (aPwm1 + .7) + (aPwm1 -.7), 256)
 aMix2 = dcblock2(aRmp2 * (aPwm2 + .3) + (aPwm2 -.3), 256)
 kQ    = adsr(.06, 4358, .08, .06)/2.5
-a1,a12,a18,a24 mvclpf4 aMix1 * p5 * aEnv, 4000, .5 - kQ ; * .68  ; .1
-a2,a12,a18,a24 mvclpf4 aMix2 * p5 * aEnv, 4000, .5 - kQ ; * .68  ; .1
+a1,a12,a18,a24 mvclpf4 aMix1 * p5 * aEnv, 4000, .5 - kQ * .68
+a2,a12,a18,a24 mvclpf4 aMix2 * p5 * aEnv, 4000, .5 - kQ * .68
 iAmp  = .16 ; amp. attenuation
 gaRvbL  += (a1 + a2) * iAmp * p7 * giAmp
 gaRvbR  += (a1 + a2) * iAmp * (2 - p7) * giAmp
