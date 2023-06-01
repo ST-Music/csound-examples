@@ -10,6 +10,6 @@ While one might create the shapes easier with tables (GEN07 then bandlimiting wi
 
 One other interesting part of the patch was the use of the reverb algorithm to create the slow attack/release. The oscillators use a fairly quick attack , 77 ms & 25 ms respectively. By putting the reverb in series with no parallel dry signal (essentially 100% wet) a slow attack/release results. I increased the attack time to .77 as it wasn't really possible to mimic their particular reverb algorithm easily (probably some pre-delay, early reflections etc.).
 
-1I didn't exactly nail it but the end result is similar. It creates a fairly full multi-octave pad using a single note.
+I didn't exactly nail it but the end result is similar. It creates a fairly full multi-octave pad using a single note.
 
 I've also included a few pics of the raw waveforms created in Csound and an audio example.
