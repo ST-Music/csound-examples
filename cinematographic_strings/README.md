@@ -12,4 +12,7 @@ One other interesting part of the patch was the use of the reverb algorithm to c
 
 I didn't exactly nail it but the end result is similar. It creates a fairly full multi-octave pad using a single note.
 
-I've also included a few pics of the raw waveforms created in Csound and an audio example.
+I've also included a few pics of the raw waveforms as created in Csound.
+
+There's also an audio example here:
+https://www.dropbox.com/s/kbvv96s7dzefye7/cinematographic_strings.mp3?dl=0
