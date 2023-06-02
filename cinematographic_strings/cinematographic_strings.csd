@@ -117,4 +117,6 @@ i"chorus"  0   40
 i"reverb"  0   40   10   92   10.5
 </CsScore>
 </CsoundSynthesizer>
-; coded by Scott Daughtrey
+; code by Scott Daughtrey
+; https://soundcloud.com/st-csound
+; https://youtube.com/@stmusic2164
