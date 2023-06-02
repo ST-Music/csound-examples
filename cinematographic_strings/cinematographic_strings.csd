@@ -1,7 +1,7 @@
 <CsoundSynthesizer>
 <CsOptions>
  -o dac   -d -m2
- -o strings.wav
+; -o strings.wav
 </CsOptions>
 ;================================
 <CsInstruments>
@@ -75,7 +75,6 @@ iAmp  = .17 ; amp. attenuation
 gaChoL  += (a1 + a2) * iAmp * p7 * giAmp
 gaChoR  += (a1 + a2) * iAmp * (2 - p7) * giAmp
   endin 
-
 
   instr chorus
 kMod  = lfo(3, .6) + 3
