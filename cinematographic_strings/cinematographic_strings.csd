@@ -69,7 +69,6 @@ aRmp2 = vco2(.3, p4 * 2, 20, .99, p6, iNyx)
 aMix1 = dcblock2(aRamp * (aPwm1 + .7) + (aPwm1 -.7), 256)
 aMix2 = dcblock2(aRmp2 * (aPwm2 + .3) + (aPwm2 -.3), 256)
 kQ    = adsr(.06, 4.358, .08, .06)/7
-; printk .5, .12 - kQ * .68
 a1,a12,a18,a24 mvclpf4 aMix1 * p5 * aEnv, 4000, .12 - kQ * .68
 a2,a12,a18,a24 mvclpf4 aMix2 * p5 * aEnv, 4000, .12 - kQ * .68
 iAmp  = .17 ; amp. attenuation
@@ -81,7 +80,6 @@ gaChoR  += (a1 + a2) * iAmp * (2 - p7) * giAmp
   instr chorus
 kMod  = lfo(3, .6) + 3
 kMod2 = lfo(3, .65) + 3
-; printk .1, 10 + kMod
 aDelL = vdelay(gaChoL, 10 + kMod, 20)
 aDelR = vdelay(gaChoR, 10 + kMod2, 20)
 
