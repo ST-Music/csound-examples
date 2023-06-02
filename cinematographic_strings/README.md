@@ -8,7 +8,7 @@ The Flowtones patch uses some interesting bandlimited waveforms, two saw-pulse s
 
 While one might create the shapes easier with tables (GEN07 then bandlimiting with GEN30) this creates an issue with potential aliasing using higher freq. notes. So I opted to use vco2 and modulate and sum simple waveforms instead, taking advantage of the opcodes bandlimiting.
 
-One other interesting part of the patch was the use of the reverb algorithm to create the slow attack/release. The oscillators use a fairly quick attack , 77 ms & 25 ms respectively. By putting the reverb in series with no parallel dry signal (essentially 100% wet) a slower attack/release results.
+One other interesting part of the patch was the use of the reverb algorithm to create the slow attack/release. The oscillators use a fairly quick attack , 77 ms & 25 ms respectively. By putting the reverb in series with no parallel dry signal (essentially 100% wet) a slower attack/release results. It was hard, however to replicate the response of their reverb algorithm (possibly pre-delay & early reflections in there?) so for the linked audio example I increased the attack time to .77 (I think...).
 
 I didn't exactly nail it but the end result is similar. It creates a fairly full multi-octave pad using a single note.
 
