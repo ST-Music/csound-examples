@@ -21,5 +21,5 @@ I didn't exactly nail it but the end result is similar. It creates a fairly full
 
 I've also included a few pics of the raw waveforms as created in Csound.
 
-There's also an audio example here:
+There's an audio example here:
 https://www.dropbox.com/s/kh5krepdrca4kjy/cinematographic_strings.mp3?dl=0
