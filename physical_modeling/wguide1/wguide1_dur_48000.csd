@@ -18,7 +18,7 @@ instr trig
   kLen  = lenarray(kNote)
   kTrig = metro(.2)
   kFreq = mtof(kNote[gkCnt])
-  schedkwhen kTrig, 0, 0, 2, 0, 5, kFreq
+  schedkwhen kTrig, 0, 0, "wguide1", 0, 5, kFreq
 
     if  kTrig == 1 then
         gkCnt += 1
@@ -30,7 +30,7 @@ instr trig
 
 endin
 
-instr 2     
+instr wguide1     
   aEnv  = expseg:a(1, .1, .0001)
   aSig  = noise(2 * aEnv, 0.99)
   kFreq = p4
