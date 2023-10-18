@@ -17,8 +17,11 @@ instr 1
   gaRvb   init 0
   aEnv  = linseg(0, 4, 1, p3 - 8, 1, 4, 0)             
 ; random spline ties elements together. as amp increases,
-; so does frequency & amount of noise "whistling"
-  kMod  = rspline(.5, 1, .05, .2)
+; so does frequency & amount of noise/wind "whistling"
+; the first two value control the general range of the
+; amp. & freq. modulation, the last two control the lowest
+; and fastest "speed" of mod.
+kMod  = rspline(.5, 1, .05, .2)
 ; amount of low pass filtering, higher values filter more
   iLpf  = 400
   iAmp  = 70 ; overall amplitude
