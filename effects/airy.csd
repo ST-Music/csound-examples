@@ -20,9 +20,11 @@ instr 1
 ; so does frequency & amount of noise/wind "whistling"
 
 ; the first two values control the general range of the
-; amp. & freq. modulation, the last two control the lowest
+; amp. & freq. modulation and are likely the first that
+; should be adjusted. the last two control the lowest
 ; and fastest "speed" of mod.
   kMod  = rspline(.5, 1, .05, .2)
+
 ; amount of low pass filtering, higher values filter more
   iLpf  = 400
   iAmp  = 70 ; overall amplitude
